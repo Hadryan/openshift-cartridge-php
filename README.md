@@ -11,7 +11,7 @@ rhc cartridge add -a myapp http://cartreflect-claytondev.rhcloud.com/github/boek
 If you want to install a specific PHP version you can add `--env OPENSHIFT_PHP_VERSION=<version>` to the command.
 For example to install PHP 5.5.22 you can use:
 ```BASH
-rhc cartridge add -a myapp --env OPENSHIFT_PHP_VERSION=5.5.22 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-php
+rhc cartridge add -a myapp --env OPENSHIFT_PHP_VERSION=7.0.7 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-php
 ```
 
 ## Versions
